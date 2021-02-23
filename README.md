@@ -515,4 +515,4 @@ Publish the website in the given URL.
 
 ## RESULT:
 Thus, a responsive website with two break points is designed and is hosted in the URL 
-"http://safa.student.saveetha.in:8000/homeresponsive/"
+"http://rithanie.student.saveetha.in:8000/homeresponsive/"
