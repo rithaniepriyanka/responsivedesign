@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from respage import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('productsresponsive/', views.productsresponsive , name='productsresponsive'),
+    path('homeresponsive/', views.homeresponsive , name='homeresponsive'),
+    path('peopleresponsive/', views.peopleresponsive , name='peopleresponsive'),
+    path('contactusresponsive/', views.contactusresponsive , name='contactusresponsive'),
 ]
